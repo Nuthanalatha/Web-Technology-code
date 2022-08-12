@@ -1,0 +1,49 @@
+#div1{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    overflow:auto;
+}
+#div2{
+    background-color: blue;
+    width: 50px;
+    height: 100px;
+    float:left;
+}
+#div3{
+    background-color: brown;
+    width: 40px;
+    height: 100px;
+    float: right;
+}
+.imgdiv{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+}
+.p1{
+    float: left;
+}
+img{
+    border-radius: 30%;
+    width:200px;
+    height: 102;
+}
+/* this is attribute selector*/
+/* img[alt="img1"]{
+    border-radius: 30%;
+    width:200px;
+    height: 102;
+} */
+*{
+    background-color: blueviolet;
+}
+h1,h2,p{
+    text-align:center;
+    color:blue;
+}
