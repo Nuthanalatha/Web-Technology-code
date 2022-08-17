@@ -28,8 +28,8 @@ console.log(x < y);
 
 let z = 40;
 let k = "40";
-console.log(z !== k);
-console.log(z != k);
+console.log(z !== k); //t
+console.log(z != k); //f
 
 //ternary operator
 let age = 18;

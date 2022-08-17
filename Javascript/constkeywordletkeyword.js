@@ -22,7 +22,7 @@ console.log(c); //30
 //let and const
 //console.log(sec);
 
-//temporal dead zoon is a time b/w variable declaration and variable initilzation
+//let and const are in temporal dead zoon is a time b/w variable declaration and variable initilzation
 //you can not access the varibles untill they are assigned to some value
 //this means it gives the error if we not assign any value ,it doesnot print undefined
 let sec = "b";
