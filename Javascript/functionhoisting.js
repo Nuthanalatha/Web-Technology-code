@@ -14,9 +14,9 @@ function test() {
 test();
 
 //hoisting=hoisting is a technique which moves variables
-//and function declarations to the top of there scope before code exicution begins
+//and function declarations to the top of there scope before code execution begins
 //in function hoisting declaration only moved to the top not initialization
-//in function hoisting suppored for named function
+//in function hoisting is suppored for named function
 add(2, 4); //function declaration will move to top 1st
 
 function add(a, b) {

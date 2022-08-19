@@ -52,3 +52,11 @@ let deepCopy = { ...person, moreDetails: { ...person.moreDetails } };
 person.moreDetails.bloodGroup = "AB+";
 console.log(person); //fname-nuthana,bg:AB+
 console.log(personCopy); //fn:nayana bg:AB+
+
+//deep copy will copy all the levels of array or object
+//new object will be created with new reference
+
+//JSON.parse():this will convert json object to js object
+//JSON.stringify will convert from object to Json object
+const personCopyJson = JSON.parse(JSON.stringify(person));
+console.log(personCopyJson);

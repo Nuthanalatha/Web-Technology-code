@@ -163,3 +163,57 @@ hobbies.forEach(function (val, ind, arr) {
 //includes
 console.log(hobbies.includes("criket")); //true it returns boolian
 console.log(hobbies.includes("chees")); //false
+
+//find
+//find method will take one calback function and it returns the first element that matchs the condition
+let arryFind = [30, 1, 4, 5, 9, 65, 8, 4];
+const found = arryFind.find((value) => value > 10);
+console.log(found);
+
+//splice method
+//we use splice method to add or remove the elements in mid of the array
+//it will affect your original array
+//it returns the removed elements if any elements is removed
+//arrayData.splice(start-index,no of elements to be removed,new elements to be added)
+let spliceArray = [2, 4, 7, 3, 5, 6, 9, 8, 10];
+let splicedArr = spliceArray.splice(3, 2, 56, 78);
+console.log(spliceArray);
+console.log(splicedArr); //removed elements
+
+//adding element with out deleting
+let noDelete = spliceArray.splice(2, 0, 25, 60);
+console.log(spliceArray);
+console.log(noDelete);
+
+//slice method
+//slice method will return the new array(shallow copy)
+//it will take two arguments
+
+let sliceArray = ["CIT", "SSIT", "KIT", "NIST", "CHRIST"];
+const data2 = sliceArray.slice(1); //ssit,kit,nist,chirst
+const data3 = sliceArray.slice(2); //kit,nist,chirst
+const data4 = sliceArray.slice(2, 4); //1st argument is excluded and second argument included
+const data5 = sliceArray.slice(-2); //nist,christ
+const data6 = sliceArray.slice(2, -1);
+
+console.log(data2, "sliced array");
+console.log(data3);
+console.log(data4);
+console.log(data5);
+console.log(data6);
+
+console.log(sliceArray, "original array");
+
+//Sort()
+//it will consider the values as string
+//it will over writes the original array
+//it will arrange an elements in an accending or decending order
+//new array with in sorted order
+//by defalut sort accending order
+//console.log(arryFind);
+
+let sortArray = [15, 18, 78, 13, 23, 44, 54, 32, 99, 100]; //[100,13,15,18,23,32,44,54,78,99]
+sortArray.sort(); //with oput callback fun sort method will give unpredictable
+console.log(sortArray);
+
+//we
