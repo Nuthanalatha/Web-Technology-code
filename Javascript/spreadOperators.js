@@ -45,7 +45,7 @@ let person = {
 };
 let personCopy = { ...person }; //shalow copy will copy only the first layer
 person.fName = "Nuthana";
-person.lName = "T G";
+person.lname = "T G";
 
 let deepCopy = { ...person, moreDetails: { ...person.moreDetails } };
 
@@ -60,3 +60,17 @@ console.log(personCopy); //fn:nayana bg:AB+
 //JSON.stringify will convert from object to Json object
 const personCopyJson = JSON.parse(JSON.stringify(person));
 console.log(personCopyJson);
+
+//destructuring : mainly used for object
+//used to reduce time wasting
+let person2 = {
+  name: "Avi",
+  phNo: 97654323456,
+  address: "Tumkur",
+  email: "avi@gmail.com",
+};
+let { name, phNo, address, email } = person2;
+console.log(address);
+
+const [a, b] = [23, 45]; //array destructuring
+console.log(a);

@@ -213,7 +213,17 @@ console.log(sliceArray, "original array");
 //console.log(arryFind);
 
 let sortArray = [15, 18, 78, 13, 23, 44, 54, 32, 99, 100]; //[100,13,15,18,23,32,44,54,78,99]
-sortArray.sort(); //with oput callback fun sort method will give unpredictable
+sortArray.sort(); //without callback fun sort method will give unpredictable value
+//like mentioned in above comment lines
 console.log(sortArray);
 
-//we
+//we should use call back function
+sortArray.sort((a, b) => {
+  return a - b;
+});
+console.log(sortArray);
+
+sortArray.sort((a, b) => {
+  return b - a;
+});
+console.log(sortArray);
