@@ -165,7 +165,7 @@ console.log(hobbies.includes("criket")); //true it returns boolian
 console.log(hobbies.includes("chees")); //false
 
 //find
-//find method will take one calback function and it returns the first element that matchs the condition
+//find method will take one callback function and it returns the first element that matchs the condition
 let arryFind = [30, 1, 4, 5, 9, 65, 8, 4];
 const found = arryFind.find((value) => value > 10);
 console.log(found);
