@@ -1,5 +1,5 @@
 .test1 {
-  /* display: none; */
-  visibility: hidden;
+  display: none;
+  /* visibility: hidden; */
   background-color: red;
 }

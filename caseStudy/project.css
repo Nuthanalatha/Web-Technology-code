@@ -1,0 +1,33 @@
+h1 {
+  margin-top: 180px;
+}
+#search-field {
+  margin-left: 50px;
+  width: 300px;
+}
+section input {
+  width: 500px;
+  height: 28px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.search-box {
+  border-radius: 4px;
+  background: white;
+  border: 2px solid white;
+}
+form {
+  margin: 0;
+}
+input {
+  border: none;
+  outline: none;
+}
+img {
+  font-size: 40px;
+  margin: 0px 10px;
+}
+button {
+  background: transparent;
+  border: none;
+}
