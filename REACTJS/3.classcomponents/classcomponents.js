@@ -1,7 +1,7 @@
 //to create a component you should follow the pascle case
 
 //jsx rules
-//if we have more than rwo elements we have to wrap it inside the paranthesis
+//if we have more than two elements we have to wrap it inside the paranthesis
 //if more than one element is there in the component then you have to wrap it inside parent element
 
 class Header extends React.Component {
