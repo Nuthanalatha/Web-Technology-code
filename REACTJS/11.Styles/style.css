@@ -1,0 +1,60 @@
+.main {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  display: flex;
+}
+
+.d1 {
+  background-color: blue;
+  width: 50%;
+  height: 500px;
+}
+
+.d2 {
+  background-color: pink;
+  width: 50%;
+  height: 500px;
+}
+
+.main1 {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.div1 {
+  width: 500px;
+  height: 250px;
+  display: flex;
+}
+
+.div2 {
+  width: 500px;
+  height: 250px;
+  display: flex;
+}
+
+.d3 {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+.d4 {
+  background-color: blueviolet;
+  width: 100%;
+  height: 100%;
+}
+
+.d5 {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+
+.d6 {
+  background-color: indianred;
+  width: 100%;
+  height: 100%;
+}
